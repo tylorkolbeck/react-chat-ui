@@ -1,0 +1,30 @@
+@import '../../css/variables.scss';
+
+.MessageInputBox_container {
+    padding: 20px;
+    padding-top: 10px;
+    width: 100%;
+
+    & input {
+        border: 1px solid $color-grey-light;
+        border-radius: 5px;
+        width: 100%;
+        padding: 10px 8px;
+        outline: none;
+    }
+}
+
+.MessageInputBox_input_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.MessageInputBox_button_container {
+    & > button {
+        padding: 10px;
+        background-color: $color-blue-secondary;
+        border-radius: 5px;
+        color: white;
+        margin-left: 20px;
+    }
+}

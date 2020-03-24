@@ -1,0 +1,28 @@
+@import '../../css/variables.scss';
+
+.Input_container {
+    display: flex;
+
+    & input {
+        position: relative;
+        width: 100%;
+        padding: 10px 8px;
+        outline: none;
+        border: none;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    & .Input_search_icon {
+        background: white;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px 0px 0px 5px;
+
+        & img {
+            height: 20px;
+            width: 20px;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@import '../../css/variables.scss';
+
+.ProfileImage {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ProfileImage_status {
+    position: absolute;
+    border-radius: 10px;
+    height: 12px;
+    width: 12px;
+    bottom: 3px;
+    right: 2px;
+}
+
+.ProfileImage_unread {
+    position: absolute;
+    font-weight: bold;
+    left: -2px;
+    top: -3px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    height: 12px;
+    width: 12px;
+    background: $color-red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
